@@ -1,0 +1,16 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "PROJET DE PROGRAMMATIION REPARTIE",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i src/styles.css -o public/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
